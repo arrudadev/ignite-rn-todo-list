@@ -2,13 +2,17 @@ import { StyleSheet } from 'react-native'
 import { tokens } from '@/styles/tokens'
 
 export const styles = StyleSheet.create({
-  container: {
+  wrapper: {
     flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: tokens.colors.gray[600],
   },
-  text: {
-    fontSize: tokens.fonts.sizes.lg,
-    fontFamily: tokens.fonts.font.bold,
+  container: {
+    paddingHorizontal: 24,
+  },
+  form: {
+    marginTop: -32,
+    flexDirection: 'row',
+    alignContent: 'center',
+    gap: 4,
   },
 })

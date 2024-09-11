@@ -1488,7 +1488,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@expo/vector-icons@npm:^14.0.0":
+"@expo/vector-icons@npm:^14.0.0, @expo/vector-icons@npm:^14.0.2":
   version: 14.0.2
   resolution: "@expo/vector-icons@npm:14.0.2"
   dependencies:
@@ -5676,6 +5676,7 @@ __metadata:
   dependencies:
     "@babel/core": "npm:^7.20.0"
     "@expo-google-fonts/inter": "npm:^0.2.3"
+    "@expo/vector-icons": "npm:^14.0.2"
     "@rocketseat/eslint-config": "npm:^2.2.2"
     "@types/react": "npm:~18.2.45"
     eslint: "npm:8.56.0"
